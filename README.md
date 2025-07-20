@@ -1,7 +1,5 @@
 # Nilkamal Furniture Clone
 
-![Nilkamal Clone Screenshot](./public/screenshot.jpg)
-
 A responsive e-commerce website clone of Nilkamal Furniture built with React.js and modern CSS techniques.
 
 ## Features
@@ -43,4 +41,4 @@ A responsive e-commerce website clone of Nilkamal Furniture built with React.js 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nilkamal-clone.git
+   git clone https://github.com/IBMTECKO12/nilkamal-clone
