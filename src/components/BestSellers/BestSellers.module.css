@@ -1,0 +1,122 @@
+/* src/components/BestSellers/BestSellers.module.css */
+.bestSellers {
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.productCard {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.productImage {
+  width: 100%;
+  object-fit: cover;
+  background-color: #f8f9fa;
+}
+
+.productName {
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0;
+}
+
+.rating {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.star {
+  margin-right: 0.2rem;
+}
+
+.reviews {
+  font-size: 0.9rem;
+  color: #666;
+  margin-left: 0.5rem;
+}
+
+.priceContainer {
+  padding: 0 1rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.currentPrice {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e63946;
+  margin-right: 0.5rem;
+}
+
+.originalPrice {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: #999;
+}
+
+.addToCartButton {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #4a4e69;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addToCartButton:hover {
+  background-color: #22223b;
+}
+
+.plasticCategories {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.plasticCategory {
+  background-color: #e63946;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.plasticCategory:hover {
+  background-color: #c1121f;
+  transform: scale(1.05);
+}

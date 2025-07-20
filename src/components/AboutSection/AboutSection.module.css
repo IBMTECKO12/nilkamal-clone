@@ -1,0 +1,23 @@
+/* src/components/AboutSection/AboutSection.module.css */
+.aboutSection {
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.aboutContent {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.aboutContent p {
+  margin-bottom: 1.5rem;
+  color: #333;
+}

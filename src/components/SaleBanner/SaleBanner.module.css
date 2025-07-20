@@ -1,0 +1,48 @@
+/* src/components/SaleBanner/SaleBanner.module.css */
+.saleBanner {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  margin: 2rem 0;
+}
+
+.bannerItem {
+  text-align: center;
+  padding: 1rem;
+}
+
+.bannerItem h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.shopNowButton, .viewAllButton {
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.shopNowButton {
+  background-color: #e63946;
+  color: white;
+}
+
+.viewAllButton {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+}
+
+.shopNowButton:hover {
+  background-color: #c1121f;
+}
+
+.viewAllButton:hover {
+  background-color: #333;
+  color: white;
+}

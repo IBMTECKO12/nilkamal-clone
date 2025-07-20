@@ -1,0 +1,12 @@
+/* Example component style */
+.button {
+  background-color: var(--primary-color);
+  color: var(--text-on-primary);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--border-radius-md);
+  transition: background-color var(--transition-normal);
+}
+
+.button:hover {
+  background-color: var(--primary-dark);
+}

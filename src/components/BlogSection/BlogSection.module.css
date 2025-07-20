@@ -1,0 +1,71 @@
+/* src/components/BlogSection/BlogSection.module.css */
+.blogSection {
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #333;
+  margin: 0;
+}
+
+.viewAllButton {
+  padding: 0.6rem 1.5rem;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.viewAllButton:hover {
+  background-color: #333;
+  color: white;
+}
+
+.blogPosts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.blogPost {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postTitle {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.postExcerpt {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.readMoreLink {
+  color: #e63946;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.readMoreLink:hover {
+  color: #c1121f;
+  text-decoration: underline;
+}

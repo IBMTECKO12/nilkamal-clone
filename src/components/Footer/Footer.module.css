@@ -1,0 +1,145 @@
+/* src/components/Footer/Footer.module.css */
+.footer {
+  background-color: #22223b;
+  color: white;
+  padding: 2rem;
+}
+
+.footerTop {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footerSection {
+  margin-bottom: 1.5rem;
+}
+
+.footerTitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #e63946;
+}
+
+.footerLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerLinks li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.footerLinks li:hover {
+  color: white;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialIcons span {
+  width: 30px;
+  height: 30px;
+  background-color: #4a4e69;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.socialIcons span:hover {
+  background-color: #e63946;
+}
+
+.categoryTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: #4a4e69;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tag:hover {
+  background-color: #e63946;
+}
+
+.footerMiddle {
+  margin: 2rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid #4a4e69;
+  border-bottom: 1px solid #4a4e69;
+}
+
+.citiesTitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #e63946;
+}
+
+.citiesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.city {
+  font-size: 0.8rem;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.city:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footerBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.paymentMethods {
+  text-align: center;
+}
+
+.paymentMethods h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.paymentIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.paymentMethod {
+  background-color: #4a4e69;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}

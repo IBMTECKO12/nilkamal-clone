@@ -1,0 +1,58 @@
+/* src/components/Header/Header.module.css */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.searchContainer {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navList li {
+  margin: 0 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: #333;
+}
+
+.navList li:hover {
+  color: #e63946;
+}

@@ -1,0 +1,58 @@
+/* src/components/CategorySection/CategorySection.module.css */
+.categorySection {
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.categoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.categoryCard {
+  background-color: white;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.categoryCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  color: #e63946;
+}
+
+.hotCollections {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.collectionCard {
+  background-color: #4a4e69;
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.collectionCard:hover {
+  background-color: #22223b;
+  transform: scale(1.05);
+}
